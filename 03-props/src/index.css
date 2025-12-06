@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: helvetica neue;
+  /* background-color:  black;
+  color: white; */
+}
+
+html,body{
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  color: white;
+
+}
+
+.parent{
+  padding:20px ;
+  display: flex;
+  /*align-items: center;
+  */flex-wrap: wrap;
+  
+}
+
+.card{
+  width: 200px;
+  border: 2px solid red;
+  margin: 5px;
+  padding:  10px ;
+  padding-left: 20px;
+  border-radius:10px ;
+  -webkit-border-radius:10px ;
+  -moz-border-radius:10px ;
+  -ms-border-radius:10px ;
+  -o-border-radius:10px ;
+  background-color: #222;
+}
+.card p{
+  margin: 10px 0;
+}
+.card img{
+  height: 100px;
+  width: 150px ;
+  object-fit: cover;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -ms-border-radius: 15px;
+  -o-border-radius: 15px;
+}
+
+.card button{
+  margin: 0px 40px ;
+  padding: 10px 20px ;
+  background-color: white ;
+  color: black;
+  border: none;
+  border-radius: 5px ;
+  -webkit-border-radius: 5px ;
+  -moz-border-radius: 5px ;
+  -ms-border-radius: 5px ;
+  -o-border-radius: 5px ;
+}
